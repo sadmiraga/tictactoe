@@ -1,0 +1,43 @@
+.cell{
+  width: 10rem;
+  height: 10rem;
+  justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+    font-size: 24px;
+}
+
+.cell:hover{
+  cursor:pointer;
+}
+
+.row{
+  display:flex;
+  flex-direction: row;
+}
+
+
+#ena-ena,
+#ena-dva,
+#dva-ena,
+#dva-dva{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#ena-tri,
+#dva-tri{ 
+  border-bottom: 1px solid black;;
+}
+
+#tri-ena,
+#tri-dva{
+  border-right: 1px solid black;
+}
+
+.container{
+  justify-content: center;
+    display: flex;
+    margin-top: 10%;
+}
